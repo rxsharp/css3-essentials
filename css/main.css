@@ -1,4 +1,15 @@
-@import 'animation-box.css';
+/*All of the css files will be imported on this file*/
+@import 'animations.css';
+@import 'flex.css';
+
+/*COLORS*/
+.limey {
+    background: #D1E751;
+}
+
+.white {
+    background: #fff;
+}
 body {
     background: #6BACBF;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -38,28 +49,6 @@ div {
 
 .alternative-list li {
     list-style-type: circle;
-}
-
-.boxanimation {
-    width: 100%;
-    height: 100px;
-    background-color: green;
-    -webkit-animation-name: example;
-    -webkit-animation-duration: 30s;
-    animation-name: example;
-    animation-duration: 30s;
-}
-
-@-webkit-keyframes example {
-    from {background-color: green;}
-    to {background-color: yellow;}
-}
-
-@keyframes example {
-    from {background-color: green;}
-    to {background-color: yellow;}
-}
-
 
 /*Default FONTS*/
  /**{font-family: "Lucida Console", monospace, ;}*/
