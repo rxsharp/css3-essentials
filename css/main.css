@@ -1,0 +1,56 @@
+/*All of the css files will be imported on this file*/
+@import 'animations.css';
+@import 'flex.css';
+
+/*COLORS*/
+.limey {
+    background: #D1E751;
+}
+
+.white {
+    background: #fff;
+}
+body {
+    background: #6BACBF;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*Default HEADINGS*/
+h1, h2, h3, h4, h5, h6 {
+    color: #F0C000;
+    background: #001848;
+    padding: 5px;
+}
+
+/*Default list-items*/
+li {
+    color: #FFF;
+}
+
+div {
+    font-size: 16px;
+}
+
+.unordered-list ul li {
+    padding-bottom: 5px;
+}
+.alternative-area {
+        background: #2A044A;
+        border: #FFF solid 2px;
+        border-top: #FFF solid 2px;
+}
+
+.h4-alternative {
+    margin: 0 auto; /*To take off the top margin of the h4*/
+}
+.alternative-list li {
+    padding: 5px;
+}
+
+.alternative-list li {
+    list-style-type: circle;
+
+/*Default FONTS*/
+ /**{font-family: "Lucida Console", monospace, ;}*/
+/*Sublime text said the universal selector * is known to be slow*/
+
