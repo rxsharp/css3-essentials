@@ -1,3 +1,57 @@
+/*Images*/
+.top-bottom> .tl {
+  position: relative;
+  float:left;
+}
+.top-bottom> .tr {
+  position: relative;
+  float:right;
+}
+.top-bottom> .br {
+  position: fixed;
+  bottom:0;
+  right:0;
+}
+
+.top-bottom> .bl {
+  position: fixed;
+  bottom:0;
+  left:0;
+}
+
+.bg-template {
+    background: url('http://rxsharp.github.io/css3-essentials/images/star.gif') no-repeat;
+  background-size:cover;
+  width:100%;
+}
+
+.auto-hab {
+  background-image: url('http://rxsharp.github.io/my-snapfile/images/hot-air-balloon.jpg');
+}
+.auto-star{
+  /* gif: 500px x 500px */
+background-size:auto;
+background-image: url('http://rxsharp.github.io/css3-essentials/images/star.gif');
+      background-repeat:no-repeat;
+}
+
+/* Layout */
+.top-bottom {
+  height: 150px;
+}
+
+.center {
+  height: 200px;
+  background: #000;
+}
+
+ /*Defaults*/
 body {
-	background: #9cbCad;
+  background: url('http://rxsharp.github.io/css3-essentials/images/star.gif') center no-repeat;
+  background-size:auto;
+}
+
+.star {
+  width:68px;
+  height: 64px;
 }
