@@ -29,7 +29,6 @@
   background-image: url('http://rxsharp.github.io/my-snapfile/images/hot-air-balloon.jpg');
 }
 .auto-star{
-  /* gif: 500px x 500px */
 background-size:auto;
 background-image: url('http://rxsharp.github.io/css3-essentials/images/star.gif');
       background-repeat:no-repeat;
@@ -37,17 +36,23 @@ background-image: url('http://rxsharp.github.io/css3-essentials/images/star.gif'
 
 /* Layout */
 .top-bottom {
-  height: 150px;
+  height: 20%;
 }
 
 .center {
-  height: 200px;
-  background: #000;
+background: url('http://rxsharp.github.io/css3-essentials/images/universe-banner.jpg') no-repeat top left;
+background-size: cover;
+height: 60%;
 }
 
  /*Defaults*/
+html,body {
+    height: 100%;
+    margin:0;
+}
+
 body {
-  background: url('http://rxsharp.github.io/css3-essentials/images/star.gif') center no-repeat;
+  background: url('http://rxsharp.github.io/css3-essentials/images/dark-bg.jpg') center no-repeat;
   background-size:auto;
 }
 
