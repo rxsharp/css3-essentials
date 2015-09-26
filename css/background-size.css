@@ -1,4 +1,17 @@
 /*Images*/
+.star-streaks {
+  width: 100px;
+  height:100px;
+}
+
+.center img {
+  position:absolute;
+  top:50%;
+  right:50%;
+    margin: -50px 0 0 -50px;
+
+}
+
 .top-bottom> .tl {
   position: relative;
   float:left;
@@ -25,9 +38,6 @@
   width:100%;
 }
 
-.auto-hab {
-  background-image: url('http://rxsharp.github.io/my-snapfile/images/hot-air-balloon.jpg');
-}
 .auto-star{
 background-size:auto;
 background-image: url('http://rxsharp.github.io/css3-essentials/images/star.gif');
@@ -43,6 +53,7 @@ background-image: url('http://rxsharp.github.io/css3-essentials/images/star.gif'
 background: url('http://rxsharp.github.io/css3-essentials/images/universe-banner.jpg') no-repeat top left;
 background-size: cover;
 height: 60%;
+position:relative;
 }
 
  /*Defaults*/
@@ -53,7 +64,7 @@ html,body {
 
 body {
   background: url('http://rxsharp.github.io/css3-essentials/images/dark-bg.jpg') center no-repeat;
-  background-size:auto;
+  background-size:100% 100%;
 }
 
 .star {
